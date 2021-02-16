@@ -1,0 +1,51 @@
+{
+    "description": "Marcas Schema",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "ID": {
+            "type": "integer"
+          },
+          "Name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "ID",
+          "Name"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "ID": {
+            "type": "integer"
+          },
+          "Name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "ID",
+          "Name"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "ID": {
+            "type": "integer"
+          },
+          "Name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "ID",
+          "Name"
+        ]
+      }
+    ]
+  }

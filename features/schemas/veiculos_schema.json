@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "ID": {
+            "type": "integer"
+          },
+          "Make": {
+            "type": "string"
+          },
+          "Model": {
+            "type": "string"
+          },
+          "Version": {
+            "type": "string"
+          },
+          "Image": {
+            "type": "string"
+          },
+          "KM": {
+            "type": "integer"
+          },
+          "Price": {
+            "type": "string"
+          },
+          "YearModel": {
+            "type": "integer"
+          },
+          "YearFab": {
+            "type": "integer"
+          },
+          "Color": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "ID",
+          "Make",
+          "Model",
+          "Version",
+          "Image",
+          "KM",
+          "Price",
+          "YearModel",
+          "YearFab",
+          "Color"
+        ]
+      }
+    ]
+  }

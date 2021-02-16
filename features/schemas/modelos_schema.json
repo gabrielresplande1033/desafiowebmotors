@@ -1,0 +1,63 @@
+{
+    "description": "Modelos Schema",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "MakeID": {
+            "type": "integer"
+          },
+          "ID": {
+            "type": "integer"
+          },
+          "Name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "MakeID",
+          "ID",
+          "Name"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "MakeID": {
+            "type": "integer"
+          },
+          "ID": {
+            "type": "integer"
+          },
+          "Name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "MakeID",
+          "ID",
+          "Name"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "MakeID": {
+            "type": "integer"
+          },
+          "ID": {
+            "type": "integer"
+          },
+          "Name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "MakeID",
+          "ID",
+          "Name"
+        ]
+      }
+    ]
+  }
