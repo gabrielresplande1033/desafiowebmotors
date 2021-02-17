@@ -1,6 +1,6 @@
 #language: pt
 
-@teste_resultado_de_busca
+@resultado_de_busca_test
 Funcionalidade: Efetuar buscas de carros na webmotors
 
     COMO usuario do webmotors
